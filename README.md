@@ -2,7 +2,7 @@
 Missing values are a common challenge in data analysis, and we have incorporate techniques for effectively handling them. We employ two main approaches: univariate imputation and multivariate imputation.
 
 ### Univariate Imputation
-Univariate imputation involves filling in missing values based on the distribution of individual features. Here are some examples of univariate imputation techniques used in this project:
+Univariate imputation involves filling in missing values based on the distribution of individual features. Here are some examples of univariate imputation techniques used:
 
 1. **Mean Imputation**: Missing values in numerical features are replaced with the mean of the available values for that feature.
 
@@ -15,7 +15,7 @@ Univariate imputation involves filling in missing values based on the distributi
 5. **Constant Imputation**: For features where missing values carry a specific meaning or when missingness is systematic, we replace the missing values with a constant value, such as zero or a designated placeholder value.
 
 ### Multivariate Imputation
-Multivariate imputation takes into account the relationships between features to impute missing values more accurately. In this project, we utilize the following multivariate imputation techniques:
+Multivariate imputation takes into account the relationships between features to impute missing values more accurately. We utilize the following multivariate imputation techniques:
 
 1. **K-nearest neighbors (KNN) Imputation**: Missing values in both numerical and categorical features are estimated by considering the values of the K nearest neighbors. This approach leverages the relationships between data points to provide more reliable imputations.
 
