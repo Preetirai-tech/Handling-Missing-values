@@ -1,5 +1,5 @@
 ## Handling Missing Values
-Missing values are a common challenge in data analysis, and this project incorporates techniques for effectively handling them. We employ two main approaches: univariate imputation and multivariate imputation.
+Missing values are a common challenge in data analysis, and we have incorporate techniques for effectively handling them. We employ two main approaches: univariate imputation and multivariate imputation.
 
 ### Univariate Imputation
 Univariate imputation involves filling in missing values based on the distribution of individual features. Here are some examples of univariate imputation techniques used in this project:
